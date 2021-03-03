@@ -1,8 +1,8 @@
-        #panels {
+        #panels2 {
             max-width: 500px;
         }
         
-        .panel,
+        .panel2,
         #dtmf_keypad {
             display: none;
         }
