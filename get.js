@@ -1,3 +1,3 @@
-$("body").load("https://cdn.jsdelivr.net/gh/kleibere/webrtc@de8fe764dfc92ebb0974f0d391aa804a258b0718/index.html");
+$("body").load("https://cdn.jsdelivr.net/gh/kleibere/webrtc@2937088240d1084aaf6130c335f416939aebde59/index.html");
 
-$("head").html('<link rel="stylesheet"https://github.com/kleibere/webrtc/blob/5fa21ea4cc84c5a3d7fa001df92a991e594b69a7/phone.css">');
+$("head").html('<link rel="stylesheet"https://cdn.jsdelivr.net/gh/kleibere/webrtc@c52d485f804ec0753b671efb30525efe0a52a029/phone.css">');
