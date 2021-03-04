@@ -1,9 +1,19 @@
-        #panels2 {
+        #panels{
             max-width: 500px;
         }
         
-        .panel2,
-        #dtmf_keypad {
+        #panel,
+	#dtmf_keypad,
+	#setting_panel,
+	#dialer_panel,
+	#call_log_panel,
+	#answering_machine_panel,
+	#outgoing_call_panel,
+	#incoming_call_panel,
+	#redirect_call_panel,
+	#transfer_call_panel,
+	#call_established_panel,
+	#message_panel {
             display: none;
         }
         
@@ -134,7 +144,7 @@
             text-align: center;
         }
 		
-.modal {
+#myModal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
@@ -148,7 +158,7 @@
 }
 
 /* Modal Content/Box */
-.modal-content {
+#myModal-c {
   background-color: #fefefe;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
@@ -157,15 +167,15 @@
 }
 
 /* The Close Button */
-.close {
+#close-c {
   color: #aaa;
   float: right;
   font-size: 28px;
   font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
+#close-c:hover,
+#close-c:focus {
   color: black;
   text-decoration: none;
   cursor: pointer;
