@@ -181,7 +181,7 @@
   cursor: pointer;
 }
 
-.botonF1{
+#myBtn{
   width:60px;
   height:60px;
   border-radius:100%;
@@ -198,12 +198,12 @@
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   transition:.3s;  
 }
-span{
+#sbtn{
   transition:.5s;  
 }
-.botonF1:hover span{
+#myBtn:hover span{
   transform:rotate(360deg);
 }
-.botonF1:active{
+#myBtn:active{
   transform:scale(1.1);
 }
